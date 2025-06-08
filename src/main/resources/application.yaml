@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: ecom-order-service  # or whatever the service name is
+  config:
+    import: "configserver:http://localhost:8888"
